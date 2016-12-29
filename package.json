@@ -12,6 +12,9 @@
   "author": "Rafael Oshiro",
   "license": "ISC",
   "devDependencies": {
-    "chokidar": "^1.6.1"
+    "chokidar": "^1.6.1",
+    "chokidar-cli": "^1.2.0",
+    "electron": "^1.4.13",
+    "electron-prebuilt": "^1.4.13"
   }
 }
