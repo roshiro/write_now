@@ -1,9 +1,24 @@
 <html>
   <head>
     <title>WriteNow</title>
+    <link rel="import" href="sections/notes.html">
+    <link rel="import" href="sections/writings.html">
+    <link rel="import" href="sections/todo_lists.html">
   </head>
 
   <body>
+    <!-- Sidebar -->
+    <section id="sidebar">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a data-section="notes" href="#">Notes</a></li>
+            <li><a data-section="writings" href="#">Writings</a></li>
+            <li><a data-section="todo_lists" href="#">ToDo</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
     <!-- This div is where we will insert our UI -->
     <div id="container"></div>
   </body>
